@@ -5,7 +5,7 @@ using std::cout;
 using std::cin;
 using std::string;
 
-// Lab 3 — Your Name
+// Lab 3 — Joe Barron
 // CIS 5 Week 03 · Types & variables
 
 int main() {
@@ -26,6 +26,7 @@ int main() {
 	cin >> student;
 	const int CURRENT_YEAR = 2026;
 
+	// Summarize the inputted information
   cout << "==== About me ====\n";
   cout << "Name: " << name << "\n";
   cout << "Age: " << Age << "\n";
