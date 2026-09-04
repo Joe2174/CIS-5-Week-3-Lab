@@ -24,9 +24,7 @@ int main() {
 	bool student;
 	cout << "Student: ";
 	cin >> student;
-	int CURRENT_YEAR = 2026;
-	cin >> CURRENT_YEAR;
-	cout << "Current Year is: " << CURRENT_YEAR << "\n";
+	const int CURRENT_YEAR = 2026;
 
   // TODO: declare + initialize
   // std::string name = ...;
@@ -36,6 +34,12 @@ int main() {
   // bool student = ...;
 
   cout << "==== About me ====\n";
+  cout << "Name: " << name << "\n";
+  cout << "Age: " << Age << "\n";
+  cout << "Height (m): " << height_m << "\n";
+  cout << "Initial: " << initial << "\n";
+  cout << "Student: " << student << "\n";
+  cout << "Current Year: " << CURRENT_YEAR << "\n";
   // TODO: labeled prints for every variable + CURRENT_YEAR
 
   return 0;
