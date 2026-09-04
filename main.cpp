@@ -26,13 +26,6 @@ int main() {
 	cin >> student;
 	const int CURRENT_YEAR = 2026;
 
-  // TODO: declare + initialize
-  // std::string name = ...;
-  // int age = ...;
-  // double height_m = ...;
-  // char initial = ...;
-  // bool student = ...;
-
   cout << "==== About me ====\n";
   cout << "Name: " << name << "\n";
   cout << "Age: " << Age << "\n";
